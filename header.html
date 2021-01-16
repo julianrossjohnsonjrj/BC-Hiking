@@ -10,7 +10,7 @@
     <body>
         <header>
             <nav>
-              	<a class="button" href="BC_Hiking_Home.html">BC Hiking</a> &nbsp;
+              	<a class="button" href="index.html">BC Hiking</a> &nbsp;
 		<a class="button" href="Berg_Lake_Trail.html">Berg Lake Trail</a> &nbsp;
             </nav>
         </header>
