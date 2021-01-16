@@ -1,0 +1,58 @@
+body {
+    background-color: #5085a5;
+    background-image: url("BC_Hiking_Photos/Mountains_Simplistic.jpg");
+    background-size:auto;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.button:link { color:#31708E;}
+.button:visited{color: #eaeaea; }
+.button:hover { color: #8FC1E3; }
+.button:active {font-style: italic;
+    color: #31708E;}
+
+.bottom:link { color:#dd5d44;}
+.bottom:visited{color: #f8f9fb; }
+.bottom:hover { color: darkred; }
+.bottom:active {font-style: italic;
+                color: #53695c;}
+
+footer { font-size: .70em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+    background-color:#f8f9fb;
+}
+
+#exzoom
+{
+    width: 40%;
+    position: relative;
+    left: 10%;
+    top: 40%;
+    padding-top: 3em;
+
+}
+
+nav {font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-size: 1em;
+    padding: 1em 2em 0 5em;
+    text-align: center;
+    height: 4.5em;
+    background-color: #687864;
+    background-repeat: repeat-x;
+    background-size: 3em 3em;
+    background-image: url("BC_Hiking_Photos/Forest_Mountains.jpg");
+}
+
+.button:not(.bottom) {
+         z-index: 2;
+         padding: 1.5em 1.5em 0 0;
+         font-size: 1.5em;
+         font-weight: bold;
+         display: inline-block;
+}
+
+

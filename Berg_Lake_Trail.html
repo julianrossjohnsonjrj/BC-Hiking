@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>BCBOUNDHIKING</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" type="image/x-icon" href="BC_Hiking_Photos/Hiker_Boot_Icon.png">
+<link rel="stylesheet" type="text/css" href="BC_Hiking_Photos/Looping_Folder/jquery.exzoom.css">
+<link rel="stylesheet" type="text/css" href="exzoom.css">
+</head>
+<body>
+	<nav>
+		<a class ="button" href="BC_Hiking_Home.html">BC Hiking</a>
+		<a class ="button" href="Berg_Lake_Trail.html">Berg Lake Trail</a>
+	</nav>
+	<main>
+			<div class="exzoom" id="exzoom">
+				<!-- Images -->
+				<div class="exzoom_img_box">
+					<ul class='exzoom_img_ul'>
+						<li><img src="BC_Hiking_Photos/Looping_Folder/1.JPG"/></li>
+						<li><img src="BC_Hiking_Photos/Looping_Folder/2.JPG"/></li>
+						<li><img src="BC_Hiking_Photos/Looping_Folder/3.JPG"/></li>
+						<li><img src="BC_Hiking_Photos/Looping_Folder/4.JPG"/></li>
+					</ul>
+				</div>
+				<!-- <a href="https://www.jqueryscript.net/tags.php?/Thumbnail/">Thumbnail</a> Nav-->
+				<div class="exzoom_nav"></div>
+				<!-- Nav Buttons
+				<p class="exzoom_btn">
+						<a href="javascript:void(0);" class="exzoom_prev_btn"> < </a>
+						<a href="javascript:void(0);" class="exzoom_next_btn"> > </a>
+					</p> -->
+				</div>
+				<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+				<script src="BC_Hiking_Photos/Looping_Folder/jquery.exzoom.js"></script>
+				<script type="text/javascript">
+					$(function(){
+
+					$("#exzoom").exzoom({
+						"autoPlay": false,
+					});
+				});
+				</script>
+	</main>
+	<footer>
+		Copyright &copy; BCBOUNDHIKING<br>
+		<a class="button bottom" href="mailto:julianrossjohnsonjrj@gmail.com">julianrossjohnsonjrj@gmail.com</a><br>
+	</footer>
+</body>
+

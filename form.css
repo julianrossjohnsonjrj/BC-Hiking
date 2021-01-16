@@ -1,0 +1,31 @@
+nav {font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-size: 1em;
+    padding: 1em 2em 0 5em;
+    text-align: center;
+    height: 4.5em;
+    background-color: #687864;
+    background-repeat: repeat-x;
+    background-size: 3em 3em;
+    background-image: url("C:/Users/julia/onedrive/Documents/Web/BC_Hiking_Website/BC_Hiking_Home/BC_Hiking_Photos/Forest_Mountains.jpg")
+}
+
+.button:link { color:#31708E;}
+.button:visited{color: #eaeaea; }
+.button:hover { color: #8FC1E3; }
+.button:active {font-style: italic;
+    color: #31708E;}
+
+.bottom:link { color:#dd5d44;}
+.bottom:visited{color: #f8f9fb; }
+.bottom:hover { color: darkred; }
+.bottom:active {font-style: italic;
+                color: #53695c;}
+
+.button:not(.bottom) {
+         z-index: 2;
+         padding: 1.5em 1.5em 0 0;
+         font-size: 1.5em;
+         font-weight: bold;
+         display: inline-block;
+}
