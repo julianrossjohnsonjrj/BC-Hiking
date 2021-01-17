@@ -54,7 +54,7 @@ function easeInOutCubic(t, b, c, d) {
 
 $(document).ready( function() {
   $(".inline div").each( function(i) {
-    $(this).append("<img src= 'BC_Hiking_Photos/Looping_Folder/"+(++i)+".jpg' alt='Hello'/>")
+    $(this).append("<img src= 'BC_Hiking_Photos/Looping_Folder/"+(++i)+".JPG' alt='Hello'/>")
     $(".inline div").css("display", "width", "height", "text-align")
   });
 });
